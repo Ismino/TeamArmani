@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif+Khmer:wght@300&display=swap');{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #0b0a0a;
+    text-decoration: none;
+    background-color: #73e8ff;
+} 
+#logo {
+    color: #0b0a0a;
+    font-size: 250%;
+    line-height: 50px;
+    left: 30px;
+    
+    
+}
+a {
+    text-decoration: none;
+}
+#navbar {
+    display: flex;
+    font-size: 100%;
+
+
+    
+}
+#navbar li {
+    display: flex;
+    margin: 10px;
+    list-style-type: none;
+    font-size: 20px; 
+    line-height: 50px;
+    color: #0b0a0a;
+    
+}
+#navbar a {
+    text-decoration: none;
+    color: #0b0a0a;
+}
+#navbar a:hover {
+    border: 1px solid #0b0a0a;
+}
+/*Image section in header*/
+#image {
+display: flex;
+position: relative;
+}
+
+#image img {
+    flex: 1;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#image-text {
+    position: absolute;
+    bottom: 30px;
+    left: 5px;
+    color: black;
+    border: 2px solid;
+    width: 200px;
+    background-color: #73e8ff;
+   
+}
