@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Serif+Khmer:wght@300&display=swap');{
-    margin: 0;
-    padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@300&family=Pattaya&display=swap');
 
 header {
     display: flex;
     justify-content: space-between;
-    color: #363636;
+    color: whitesmoke;
     text-decoration: none;
-    background-color: #73e8ff;
+    background-color: #002f6c;
     border: none;
+    padding: 20px 5px 20px 5px;
 } 
 #logo {
-    color: #363636;
+    color: whitesmoke;
     font-size: 250%;
     line-height: 50px;
     left: 30px;
+    font-family: Abril Fatface;
+    margin-left: 20px;
     
     
 }
@@ -25,6 +25,7 @@ a {
 #navbar {
     display: flex;
     font-size: 100%;
+    margin-right: 20px;
 
 
     
@@ -35,63 +36,84 @@ a {
     list-style-type: none;
     font-size: 20px; 
     line-height: 50px;
-    color: #363636;
+    color: whitesmoke;
     
 }
 #navbar a {
     text-decoration: none;
-    color: #363636;
+    color: whitesmoke;
 }
 #navbar a:hover {
-    border: 1px solid #363636;
+    border: 1px solid whitesmoke;
 }
 /*Image section in header*/
 #image {
 display: flex;
+justify-content: center;
 border: none;
 border-top: none;
+margin: 0;
+background-color: whitesmoke;
+
 }
 
 #image img {
     flex: 1;
-    height: auto;
+    justify-content: center;
     max-width: 100%;
-    width: 100%;
+    width: 550px;
+    height: 600px;
     background-size: contain;
     background-repeat: no-repeat;
+    border-radius: 50%;
+
 }
 #short-intro {
-    background-color: #73e8ff;
-    display: flex;
+    background-color: #002f6c;
     text-align: center;
+    font-family: pattaya;
 }
 
 #short {   
-    color: #363636;
+    color: whitesmoke;
     border: none;
     width: 100%;
-    background-color: #73e8ff;
+    background-color: #002f6c;
     border: none;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 20px;
    
 }
 #about-us {
-    width: 100%;
-    height: 100%;
-    font-size: 200%;
-    padding-top: 20px;
-    padding-left: 10px;
-    border: none;
-    border-top: none;
-    color: #363636;
-    background-color: none;
+    width: 80%;
+    height: 80%;
+    font-size: 150%;
+    border: solid 2px #002f6c;
+    border-radius: 25px;
+    color: #002f6c; 
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;  
+    margin: 20px auto;  
+    padding: 25px 50px;
+
+}
+#about-us h3 {
+    display: flex;
+    justify-content: center;
+    font-family: pattaya;
+}
+#about-us p {
+    display: flex;
+    justify-content: center;
 }
 /*therapydog section*/
 #therapydog {
-    background-color: white;
-    color: #363636;
+    background-color: whitesmoke;
+    color: #002f6c;
     font-size: 20px;
     padding: 0;
     margin-top: 0;
@@ -103,24 +125,105 @@ border-top: none;
     flex-direction: column;
     justify-content: center;
 }
+.therapy-single {
+    border: 1px solid;
+padding: 10px;
+margin-top: 20px;
+background-color: #002f6c;
+color: whitesmoke;
+font-size: 20px;
+width: 80%;
+margin: 20px auto;
+border-radius: 25px;
+
+}
 #what h3{
     display: flex;
     justify-content: center;
 
 }
+#what i {
+    margin-left: 10px;
+}
+#advantage i {
+    margin-left: 10px;
+}
 #advantage h3{
     display: flex;
     justify-content: center;
+    margin-right: 10px;
+}
+#history i {
+    margin-left: 10px;
 }
 #history h3{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin-right: 10px; 
 }
+#fa-solid {
+    margin: 10px;
+}
+/*footer styling*/
 #footer {
     display: flex;
     justify-content: center;
     font-size: 30px;
-    margin: 10px;
-    color: #363636;
-    background-color: #73e8ff;
+    color: whitesmoke;
+    background-color: #002f6c;
+    padding: 50px;
+}
+#footer a {
+    color: whitesmoke;
+}
+/*contact file styling*/
+#contact {
+ display: flex;
+ justify-content: center;
+ font-size: 150%;
+ margin: 50px;
+ padding: 100px;
+ border: #002f6c solid 2px;
+ border-radius: 25px;
+ color: #002f6c;
+ box-shadow: 5px 5px #002f6c;
+ font-family: pattaya;
+}
+#fname {
+    display: flex;
+    flex-direction: column;
+    border: #002f6c solid 2px;
+    color: #002f6c;
+    
+}
+#lname {
+    display: flex;
+    flex-direction: column;
+    border: #002f6c solid 2px;
+    color: #002f6c;
+
+}
+#email {
+    display: flex;
+    flex-direction: column;
+    border: #002f6c solid 2px;
+    color: #002f6c;
+}
+#message {
+    display: flex;
+    flex-direction: column;
+    border: #002f6c solid 2px;
+    color: #002f6c;
+}
+#submit {
+    height: 30px;
+    width: 100px;
+    border: #002f6c solid 2px;
+    border-radius: 25px;
+    color: #002f6c;
+    margin: 10px 30px 10px 30px;
+    
+}
+#submit a:hover {
+    color: #002f6c;
 }
