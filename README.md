@@ -5,6 +5,8 @@ denise linder
 Du
 ## Features
 The Team Petra & Armani webpage is a page for professional use who need a therapy dog. The user's can be school's and hospital's, even retirement home's. The website provides a contact to a service dog and he's owner/leader. The user can also read a little bit about what a social service dog is and what his working with.
+![Screenshot](style/image/screenshot.png)
+
 ### Existing Features
 
 - __Navigation bar__
