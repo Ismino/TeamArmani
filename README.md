@@ -106,3 +106,53 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+## Features 
+The Team Petra & Armani webpage is a page for professional use who need a therapy dog. The user's can be school's and hospital's, even retirement home's. The website provides a contact to a service dog and he's owner/leader. The user can also read a little bit about what a social service dog is and what his working with.
+### Existing Features
+
+- __Navigation bar__
+
+  - The navigation bar makes the site easy to go throught. 
+  - The navigation bar is also simple and elegant styled so that the user easy can read.
+
+![Navigation bar](navbar.png)
+- __The landing page image__
+
+  - A picture of the social service dog that the team provides.
+
+![Landing Page](shortone.png)
+- __Short intro section__
+
+  - This section helps the user get a clue of what's comming.
+  
+![What](what.png)
+
+- __What is a social service dog section__
+
+  - This section helps the user understand what's an social service dog is and about the history of it.
+  
+![What](what.png)
+
+- __The Footer__ 
+
+  - This section contains a link to the instagram acount of Team Petra & Armani.
+![Footer](.png)
+
+- __About us page__
+
+  - About us is a page where the user's read all about the Team Petra & Armani.
+  
+
+![Gallery]()
+
+- __Contact Page__
+
+  - The side contains a contact fill in where the user can leave a message to the team leader.
+
+![Sign Up]()
+
+## Testing 
+
+
+

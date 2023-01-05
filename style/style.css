@@ -46,6 +46,9 @@ a {
 #navbar a:hover {
     border: 1px solid whitesmoke;
 }
+.active {
+    text-decoration: underline;
+}
 /*Image section in header*/
 #image {
 display: flex;
@@ -226,4 +229,41 @@ border-radius: 25px;
 }
 #submit a:hover {
     color: #002f6c;
+}
+/*for smartphones*/
+@media only screen and (max-width: 600px) {
+    #image img {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      display: flex;
+    }
+    #short-intro {
+        display: flex;
+        font-size: 12px;
+        
+      }
+      header {
+        display: flex;
+        flex-direction: column;
+      }
+      #logo {
+        font-size: 180%;
+        left: 0;
+        margin-left: 0;
+      }
+      #about-us {
+        width: 80%;
+        font-size: 120%;
+        padding: 10px 20px;
+      }
+      #about-us h3 {
+        font-size: 25px;
+      }
+      #navbar li {
+        width: 80%; 
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+      }
 }
